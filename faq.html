@@ -467,7 +467,8 @@ You need to be online in order to update Babun - you can configure a proxy if th
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>$ compinit
+<pre>$ compaudit | xargs chmod g-w
+$ compinit
 $ cp .zcompdump .zcompdump-$HOSTNAME-$ZSH_VERSION</pre>
 </div>
 </div>
